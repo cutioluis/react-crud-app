@@ -1,0 +1,32 @@
+.container-form {
+  margin: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-form .input-text {
+  width: auto;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+
+
+.container-form input[type="submit"] {
+  margin: 0 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: #672ee3;
+  padding: 10px 20px;
+  transition: transform 150ms;
+
+}
+
+.container-form input[type="submit"]:hover {
+  transform: translateY(-3px);
+}
