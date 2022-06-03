@@ -1,0 +1,51 @@
+.container-todo-single {
+  padding: 2rem;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.452);
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-todo-details {
+  display: flex;
+  margin: 2rem;
+  flex-direction: column;
+}
+
+.container-todo-title {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.btn {
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+
+.btn-edit {
+  background-color: #4711bc;
+}
+
+.btn-edit:hover {
+  transition: 150ms;
+  background: #774cd2;
+}
+
+
+.btn-delete {
+  background-color: #bc115e;
+}
+
+.details-input {
+  width: auto;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
